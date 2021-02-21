@@ -7,7 +7,7 @@
 class Yemekpisir:
     def yuksek_ates(self):
         print("Yüksek ateşte kaynayana kadar bekleyin")
-    def kısık_ates(self):
+    def kisik_ates(self):
         print("Kapağını kapatıp kısık ateşte yarım saat pişmesini bekleyin")
     def yag_ekle(self):
         print("Yemeğe yağ ekleyin")
@@ -45,7 +45,7 @@ if secim == '1':
     yemek.fasulye_ekle()
     yemek.baharat_ekle()
     yemek.yuksek_ates()
-    yemek.kısık_ates()
+    yemek.kisik_ates()
 
 elif secim == '2':
     yemek = Etsote()
@@ -55,7 +55,7 @@ elif secim == '2':
     yemek.bekle()
     yemek.sebze_ekle()
     yemek.baharat_ekle()
-    yemek.kısık_ates()
+    yemek.kisik_ates()
 
 elif secim == '3':
     yemek = Patatesyemegi()
@@ -65,7 +65,7 @@ elif secim == '3':
     yemek.patetes_ekle()
     yemek.baharat_ekle()
     yemek.yuksek_ates()
-    yemek.kısık_ates()
+    yemek.kisik_ates()
 
 else:
     print("Hatalı seçim yaptınız")
